@@ -1,0 +1,30 @@
+name: login
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Añade la sección de assets aquí
+  assets:
+    - assets/images/MUNICIPIO.png
+    - assets/images/FONDO.png
+    - assets/images/noticia1.jpeg
+    - assets/images/noticia2.jpg
+    - assets/images/noticia3.png
